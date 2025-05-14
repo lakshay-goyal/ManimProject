@@ -27,7 +27,6 @@ def response_generator(content):
                 "content": content
             },
         ],
-        max_tokens=1024,
         temperature=0.0,
         stream=True
     )
